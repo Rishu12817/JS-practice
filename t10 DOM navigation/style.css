@@ -1,0 +1,58 @@
+body{
+
+    font-family: Helvetica , sans-serif;
+    background: rgb(22, 47, 128);
+    color: #ffffff;
+}
+
+
+.main-class{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+
+p{
+    position: center;
+    
+}
+
+button {
+    cursor: pointer;
+    margin: 20px;
+    
+    background: #ffe713;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="w idth=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+    <style>
+    
+     
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="parent">
+        Parent
+        <div class="childOne">One</div>
+        <div class="childTwo">Two</div>
+        <div class="childThree">There</div>
+
+    </div> -->
+
+
+    <div class="main-class">
+
+        <div class="child-one">
+            <p>I am child-one.</p><br><br>
+        </div>
+
+        <div class="child-two">
+            <p>I am child-two.</p><br><br>
+        </div>
+
+        <div class="child-three">
+            <p>I am child-three.</p> <br><br>
+        </div>
+        <div id="heading">
+            <p>Hello, I am Rishu. R-Enterprises</p>
+        </div>
+
+        
+        <button onclick="changeContent()" >CLICK ME</button>
+        <button onclick="confirmRefresh()" >Refresh</button>
+    </div> 
+    
+
+
+
+
+    <script>
+
+        var c2=document.querySelector('.child-two')
+        c2.style.color = "yellow"
+        var c1=document.querySelector('.child-one')
+        c1.style.color = "red"
+
+
+        var changeContent=() => 
+        {
+            document.getElementById('heading').innerHTML = "Welcom to R-Enterprises";
+            // document.querySelector('#heading').innerHTML = "Welcom to R-Enterprises";
+            document.querySelector('p').innerHTML = "i changed again"
+        }
+
+
+
+
+
+        function confirmRefresh() 
+        {
+                // var okToRefresh = confirm("Do you really want to refresh the page?");
+                setTimeout("location.reload(true);",1);
+                // if (true)
+        	    // {
+        		// 	setTimeout("location.reload(true);",1500);
+                //     document.style.color = "green"
+        	    // }
+        }
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
